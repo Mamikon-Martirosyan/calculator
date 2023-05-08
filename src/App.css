@@ -2,17 +2,18 @@ body {
   background-color: black;
 }
 
-.App{
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.calc-wraper{
+
+.calc-wraper {
   background-color: white;
   width: 400px;
   border-radius: 16px;
 }
-.row{
+
+.row {
   display: flex;
-  /* text-align: center; */
 }

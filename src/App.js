@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 import * as math from "mathjs";
-// import { evaluate } from 'mathjs';
 
 import './App.css';
 import Button from './components/Button';
@@ -13,12 +12,11 @@ const App = () => {
   const [result, setResult] = useState("");
 
   const addToText = (val) => {
-    setText((text) => [...text, val + " "]);
+    setText((text) => [...text, val]);
   };
 
   const calculateResult = () => {
     const input = text.join("");
-
     setResult(math.evaluate(input));
   };
 
